@@ -32,14 +32,29 @@
 
 //Question #1
 
-let arrOne = [1 , 2, 3, 4]
+// let arrOne = [1 , 2, 3, 4]
 
-const intFunc = (num)=>{
-    return num % 1 === 0;
-}
+// const intFunc = (num)=>{
+//     return num % 1 === 0;
+// }
 
-console.log(intFunc(arrOne[0]));
+// console.log(intFunc(arrOne[0]));
 
 
-let sum = arrOne.reduce((acc, curr)=> acc + curr, 0)
-console.log(sum)
+// let sum = arrOne.reduce((acc, curr)=> acc + curr, 0)
+// console.log(sum)
+
+//FizBuzz
+
+//Fizz = even
+
+// function fizBuzz(arr){
+//     for(let i = 0; i < arr.length; i++ ){
+//         if(i % 2 === 0){
+//             console.log("This number is even")
+//         } else {
+//             console.log("This number is odd")
+//         }
+//     }
+// }
+// console.log(fizBuzz([2, 4, 55, 63, 6, 77]))
