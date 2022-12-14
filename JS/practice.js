@@ -58,3 +58,24 @@
 //     }
 // }
 // console.log(fizBuzz([2, 4, 55, 63, 6, 77]))
+
+
+//Dynamic
+
+const newPerson = {
+    "name": "Fernando",
+    "age": 22,
+    "location": "San Antonio"
+}
+
+
+//print a sentence using this
+
+const newStatement = (person)=> {
+    for (key in person ){
+    let printOut =    "Hell, my name is " + person.name + " I am " + person.age + " years old and I live in " + person.location
+    return printOut
+    }
+}
+console.log(newStatement(newPerson))
+
